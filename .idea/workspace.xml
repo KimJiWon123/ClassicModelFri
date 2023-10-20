@@ -5,25 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a1c726f-834c-4449-ac7b-2e1071dde4e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodelfri/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodelfri/TestJpa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodelfri/entities/Office.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodelfri/TestEntityRelationship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodelfri/TestQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodelfri/TestQueryPagination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodelfri/TestQueryParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodelfri/entities/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b818d763-2db2-493c-9b9d-9c59eefd8a26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b818d763-2db2-493c-9b9d-9c59eefd8a26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b818d763-2db2-493c-9b9d-9c59eefd8a26/storage_v2/_src_/schema/classicmodels.fG2wDg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b818d763-2db2-493c-9b9d-9c59eefd8a26/storage_v2/_src_/schema/classicmodels.fG2wDg.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b818d763-2db2-493c-9b9d-9c59eefd8a26/storage_v2/_src_/schema/classicmodelsjava.nvm2PQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b818d763-2db2-493c-9b9d-9c59eefd8a26/storage_v2/_src_/schema/classicmodelsjava.nvm2PQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodelfri/entities/Office.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodelfri/entities/Office.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +56,12 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_directory_selection": "C:/Users/user/Desktop/KMUTT Subjects/Year2/Server Side/classicmodelfri/src/main/java/sit/int202/classicmodelfri",
-    "last_opened_file_path": "C:/Users/user/Desktop/KMUTT Subjects/Year2/Server Side/mysqlsampledatabase.sql",
+    "last_opened_file_path": "C:/Users/user/Desktop/KMUTT Subjects/Year2/Server Side/classicmodelfri",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
@@ -75,7 +71,20 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestEntityRelationship">
+    <configuration name="TestEntityRelationship" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sit.int202.classicmodelfri.TestEntityRelationship" />
+      <module name="classicmodelfri" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sit.int202.classicmodelfri.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestJpa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sit.int202.classicmodelfri.TestJpa" />
       <module name="classicmodelfri" />
@@ -89,9 +98,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sit.int202.classicmodelfri.TestQuery" />
+      <module name="classicmodelfri" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sit.int202.classicmodelfri.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestQueryPagination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sit.int202.classicmodelfri.TestQueryPagination" />
+      <module name="classicmodelfri" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sit.int202.classicmodelfri.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestQueryParameter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sit.int202.classicmodelfri.TestQueryParameter" />
+      <module name="classicmodelfri" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sit.int202.classicmodelfri.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestEntityRelationship" />
         <item itemvalue="Application.TestJpa" />
+        <item itemvalue="Application.TestQueryPagination" />
+        <item itemvalue="Application.TestQuery" />
+        <item itemvalue="Application.TestQueryParameter" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +158,19 @@
       <workItem from="1697270454985" duration="830000" />
       <workItem from="1697271730461" duration="302000" />
       <workItem from="1697272085336" duration="1359000" />
-      <workItem from="1697273459552" duration="4222000" />
+      <workItem from="1697273459552" duration="5087000" />
+      <workItem from="1697353239559" duration="1014000" />
+      <workItem from="1697436456995" duration="56000" />
+      <workItem from="1697773769731" duration="6631000" />
+      <workItem from="1697781187167" duration="173000" />
+      <workItem from="1697781371632" duration="450000" />
+      <workItem from="1697781839090" duration="262000" />
+      <workItem from="1697782112524" duration="354000" />
+      <workItem from="1697782539679" duration="16000" />
+      <workItem from="1697782666047" duration="125000" />
+      <workItem from="1697785692614" duration="137000" />
+      <workItem from="1697785899499" duration="2138000" />
+      <workItem from="1697792839788" duration="379000" />
     </task>
     <servers />
   </component>
